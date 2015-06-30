@@ -1,0 +1,195 @@
+@charset "utf-8";*{margin: 0;padding: 0;font-family: "微软雅黑", "黑体", "宋体" ,Arial, Helvetica, sans-serif }
+h1, h2, h3, h4, h5, h6{font-size: 100%;font-weight:normal;}
+address, cite, dfn, em, var{font-style: normal;}
+ul, ol{list-style: none;}
+a{text-decoration: none;cursor: pointer;}
+a:hover{text-decoration:none; }
+fieldset, img, a img{border: 0;}
+.left{float: left;display:inline;overflow:hidden;}
+.right{float: right;display:inline;overflow:hidden;}
+.clear:after{visibility: hidden;display: block;clear: both;height: 0;font-size: 0;content: ".";}
+.clear{zoom: 1;}
+/*main*/
+.main{ width:1100px; margin:0 auto; overflow:hidden;}
+body{
+	font-family: "微软雅黑", "黑体", "宋体";
+	font-weight: 100;
+	font-size: 18px;
+	color: #000;
+	line-height: 24px;
+}
+.golf_color{
+	color: #0b66c7;
+}
+div{
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	list-style: none;
+}
+div img{
+	margin: 0px;
+	padding: 0px;
+}
+.golf_box{
+	 position: relative;
+	 width: 100%;
+	 height: 3250px;
+	 min-width: 1100px;
+	 max-width: 1920px;
+	 overflow: hidden;
+	 margin: 0 auto;
+	 z-index: 1;
+	 text-align: left;
+}
+.golf_new{
+}
+.golf_01{
+	background: url(../img/golf_01.jpg) center;
+	width: 100%;
+	height: 561px;
+}
+.golf_02{
+	background: url(../img/golf_02.jpg) center;
+	width: 100%;
+	height: 553px;
+
+}
+.text_1 p{
+		padding-top: 445px;
+		width: 680px;
+		height: 60px;
+}
+.text_2{
+	width: 1100px;
+	margin: 0 auto;
+}
+.text_2 p{
+		padding-top: 115px;
+		width: 550px;
+		height: 90px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+		display: inline-block;
+		float: left;
+		margin-left: 15px;
+}
+.text_3{
+	display: inline-block;
+  padding-top: 72px;
+  padding-left: 150px;
+  width: 345px;
+}
+.text_3 .btn{
+  width: 160px;
+  height: 45px;
+  background: url(../img/btn_bj.jpg) repeat-x;
+  text-align: center;
+  border: 0;
+  margin-left: 85px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+  float: left;
+
+}
+.text_3 ul li{
+  width: 360px;
+  height: 35px;
+  display: inline-block;
+  float: left;
+  margin-bottom: 6px;
+}
+.text_3 ul li input{
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  float: right;
+  margin-right: 16px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  text-indent: 1em;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  font-weight: 100;
+  color: #333;
+}
+.text_4{
+	width: 1100px;
+	margin: 0 auto;
+}
+.text_4 p{
+		  padding-top: 293px;
+		  width: 550px;
+		  height: 54px;
+		  padding-right: 45px;
+		  display: inline-block;
+		  float: right;
+		  margin-left: 15px;
+}
+.text_5 p{
+		padding-top: 190px;
+		width: 550px;
+		height: 90px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+		display: inline-block;
+		float: left;
+		margin-left: 15px;	
+}
+.text_6 ul{
+  padding-top: 320px;
+  width: 940px;
+  height: 190px;
+  display: inline-block;
+  float: right;
+  margin-right: 0px;
+  line-height: 28px;
+}
+.text_6 ul li{
+	text-align: right;
+	height: 38px;
+
+}
+.olf_xd .text_2{
+  width: 550px;
+  height: 90px;
+  display: block;
+  padding-top: 110px;
+  float: left;
+}
+.golf_03{
+	background: url(../img/golf_03.jpg) center;
+	width: 100%;
+	height: 671px;
+}
+.golf_04{
+	background: url(../img/golf_04.jpg) center;
+	width: 100%;
+	height: 810px;
+}
+.golf_05{
+	background: url(../img/golf_05.jpg) center;
+	width: 100%;
+	height: 615px;
+}
+.golf_xd{
+	width: 1100px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.footer{
+	background: #222222;
+	line-height: 76px;
+	text-align:center;
+	height:76px;
+	
+	min-width: 1100px;
+	clear: both;
+	color:#fff;;
+	font-size:14px;
+}
